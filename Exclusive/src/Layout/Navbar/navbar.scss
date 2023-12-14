@@ -2,13 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 100px;
 
-    .exclusive_text_left {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
+    
 
         .exclusive {
             gap: 20px;
@@ -26,7 +21,7 @@
                 }
             }
         }
-    }
+    
 
     .whoareyou_text_right {
         gap: 10px;
@@ -36,21 +31,24 @@
 
         .searchPart {
             display: flex;
+            background-color: #000;
+            opacity: 0.3;
             justify-content: center;
             align-items: center;
             border: 1px solid #000;
-            opacity: 0.5;
 
             .input-search {
-                width: 200px;
-                height: 30px;
+                
                 text-align: center;
                 border: none;
                 outline: none;
-                background-color: #000;
-                opacity: 0.5;
+              background-color: transparent;
                 color: white;
+                &::placeholder{
+                    font-size: 12px;
+                }
             }
+
             .search-icon {
                 color: whitesmoke;
                 opacity: 0.5;

@@ -9,8 +9,9 @@ const Navbar = () => {
   return (
     <>
       <nav>
+        <div className="container">
         <div className="navbar">
-            <div className="exclusive_text_left">
+            
                 <div className="exclusive">
                     <h3>Exclusive</h3>
                 </div>
@@ -23,7 +24,7 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-            </div>
+            
 
             <div className="whoareyou_text_right">
                <div className="searchPart">
@@ -35,6 +36,7 @@ const Navbar = () => {
                <CiShoppingCart />
                 </div> 
             </div>
+        </div>
         </div>
       </nav>
     </>

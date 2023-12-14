@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import MainLayout from "./Layout/Main/mainLayout";
@@ -6,9 +5,9 @@ import AboutPage from "./Pages/AboutPage/about";
 import Contact from "./Pages/ContactPage/contact";
 import Home from "./Pages/HomePage/home";
 import Signup from "./Pages/SignUpPage/signup";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

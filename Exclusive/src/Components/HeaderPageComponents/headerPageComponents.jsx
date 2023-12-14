@@ -6,7 +6,10 @@ function HeaderPageComponents() {
   return (
     <>
       <div className="header">
-        <div className="header_text_left">
+        <div className="container">
+          <div className="row">
+        <div className="header_text_left col-lg-3 col-md-12 col-12">
+
           <ul className="header-ul">
             <li><Link>Woman’s Fashion</Link> </li>
             <li><Link>Men’s Fashion</Link></li>
@@ -20,10 +23,12 @@ function HeaderPageComponents() {
           </ul>
         </div>
 
-        <div className="header_image_right">
+        <div className="header_image_right col-lg-9 col-md-12 col-12">
           <div className="header_image">
             <img src="../../../imgs/Frame 560.png" alt="" />
           </div>
+        </div>
+        </div>
         </div>
       </div>
     </>
