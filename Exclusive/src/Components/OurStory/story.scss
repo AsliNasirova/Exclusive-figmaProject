@@ -1,0 +1,31 @@
+.homeAboutText{
+    display: flex;
+    justify-content: center;
+   
+    .home_story{
+        color: grey;
+    }
+}
+
+.ourStory_container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+   
+    .ourStory_leftPart{
+        display: flex;
+        justify-content: start;
+         flex-direction: column;
+         width: 500px;
+         align-items: flex-start;
+       
+    }
+
+    .ourStory_rightPart{
+      .image_Story_rightPart{
+        // width: 400px;
+        object-fit: cover;
+      }  
+    }
+}

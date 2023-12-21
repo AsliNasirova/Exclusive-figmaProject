@@ -1,9 +1,10 @@
 import React from 'react'
+import Story from '../../Components/OurStory/story'
 
 const AboutPage = () => {
   return (
     <div>
-      <h1>about</h1>
+      <Story/>
     </div>
   )
 }
