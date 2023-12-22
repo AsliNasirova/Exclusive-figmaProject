@@ -1,6 +1,6 @@
 .homeAboutText{
     display: flex;
-    justify-content: center;
+    left: 20px;
    
     .home_story{
         color: grey;
@@ -15,9 +15,9 @@
    
     .ourStory_leftPart{
         display: flex;
-        justify-content: start;
+        justify-content: center;
          flex-direction: column;
-         width: 500px;
+        //  width: 500px;
          align-items: flex-start;
        
     }
