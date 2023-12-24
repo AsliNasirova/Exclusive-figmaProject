@@ -15,7 +15,7 @@ const Music = () => {
                         </div>
                     </div>
                     <div className="MusicRight">
-                        <img src="../../../image/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="" />
+                        <img src="../../../imgs/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="" />
                     </div>
                 </div>
             </section>

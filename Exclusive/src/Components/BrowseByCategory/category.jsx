@@ -1,19 +1,15 @@
-import React from 'react'
-import './category.scss'
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from 'react';
+import { FiCamera } from "react-icons/fi";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { IoWatchOutline } from "react-icons/io5";
+import { LuGamepad } from "react-icons/lu";
+import { PiHeadphones } from "react-icons/pi";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
-import { IoIosPhonePortrait } from "react-icons/io";
-import { HiOutlineDesktopComputer } from "react-icons/hi";
-import { IoWatchOutline } from "react-icons/io5";
-import { FiCamera } from "react-icons/fi";
-import { PiHeadphones } from "react-icons/pi";
-import { LuGamepad } from "react-icons/lu";
-import { GoTools } from "react-icons/go";
-import { FaTabletAlt } from "react-icons/fa";
-import { IoMdLaptop } from "react-icons/io";
-import { MdOutlineSpeaker } from "react-icons/md";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './category.scss';
 
 function Category() {
   return (

@@ -31,7 +31,6 @@
         }
 
         .salesTimer {
-            // width: 300px;
             display: flex;
             font-size: 30px;
             gap: 50px;
@@ -50,7 +49,7 @@
 
         .swiper {
             width: 100%;
-            height: 230px;
+            height: 160px;
 
             .swiperInBox {
                 display: flex;
@@ -75,12 +74,8 @@
                 }
             }
         }
-
         .swiper-pagination-bullet {
             opacity: 0;
         }
     }
-
-
-
 }

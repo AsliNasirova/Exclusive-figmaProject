@@ -22,6 +22,7 @@
             }
 
             .deliverygreyIcon {
+               
                 background-color: grey;
                 width: 70px;
                 height: 70px;
@@ -33,6 +34,8 @@
                 margin-top: 20px;
 
                 .deliveryIcon {
+                    display: flex;
+                    justify-content: center;
                     font-size: 35px;
                     margin-top: 30px;
                     background-color: black;
