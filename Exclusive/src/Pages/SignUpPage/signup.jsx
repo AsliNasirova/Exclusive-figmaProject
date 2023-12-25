@@ -2,7 +2,6 @@ import React from 'react'
 import "./signup.scss"
 import { FcGoogle } from "react-icons/fc";
 import { Link } from 'react-router-dom';
-import LogIn from '../LoginPage/login';
 const SignUpPage = () => {
   return (
 
@@ -30,7 +29,7 @@ const SignUpPage = () => {
         </div>
       </div>
 
-<LogIn/>
+
 
     </div>
   )
